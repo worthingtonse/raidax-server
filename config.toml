@@ -1,0 +1,29 @@
+[server]
+raida_id = 14
+coin_id = 6
+port = 50014
+backup_freq = 5
+udp_effective_payload = 1440
+synchronization_enabled = false
+root_path = "/opt/wraidax"
+threads = 12
+admin_key = "6de9439834c9147569741d3c9c9fc010"
+proxy_key = "11b524f989a384f58e0d442da6bd6379"
+btc_confirmations = 3
+raida_servers = [
+  "raida50.cloudcoin.global:50000", "raida51.cloudcoin.global:50001",
+  "raida52.cloudcoin.global:50002", "raida53.cloudcoin.global:50003",
+  "raida54.cloudcoin.global:50004", "raida55.cloudcoin.global:50005",
+  "raida56.cloudcoin.global:50006", "raida57.cloudcoin.global:50007",
+  "raida58.cloudcoin.global:50008", "raida59.cloudcoin.global:50009",
+  "raida60.cloudcoin.global:50010", "raida61.cloudcoin.global:50011",
+  "raida62.cloudcoin.global:50012", "raida63.cloudcoin.global:50013",
+  "raida64.cloudcoin.global:50014", "raida65.cloudcoin.global:50015",
+  "raida66.cloudcoin.global:50016", "raida67.cloudcoin.global:50017",
+  "raida68.cloudcoin.global:50018", "raida69.cloudcoin.global:50019",
+  "raida70.cloudcoin.global:50020", "raida71.cloudcoin.global:50021",
+  "raida72.cloudcoin.global:50022", "raida73.cloudcoin.global:50023",
+  "raida74.cloudcoin.global:50024",
+]
+
+

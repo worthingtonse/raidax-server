@@ -1,0 +1,15 @@
+[Unit]
+Description=RAIDAX Server Service
+
+[Service]
+Type=simple
+ExecStart=/opt/raidax/raidax_server
+Restart=always
+RestartSec=5
+WorkingDirectory=/opt/raidax
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=%n
+
+[Install]
+WantedBy=multi-user.target
